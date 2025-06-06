@@ -30,7 +30,7 @@ $HOME/Library/Application Support/Adobe/Bridge 2025/Startup Scripts
 
 ### Windows
 
-This script *should* also work on Windows, but it hasn't been tested. On Windows, the equivalent script path is typically:
+This script also works on Windows. On Windows, the equivalent script path is typically:
 
 ```
 %APPDATA%\Adobe\Bridge 2025\Startup Scripts
@@ -47,14 +47,14 @@ This script *should* also work on Windows, but it hasn't been tested. On Windows
 ## 🖥 Requirements
 
 - Adobe Bridge 2025
-- macOS
-- Windows (not tested, but expected to work)
+- macOS (or Windows)
 
 ## 📝 Notes
 
 - This script is a repurposed version of Adobe’s Auto Stack Panorama/HDR feature, adapted for burst detection.
 - It creates *virtual* stacks only—no original files are modified.
 - You can unstack grouped images at any time using Bridge’s native unstack option.
+- If paired RAW and JPEG files are stored in the same folder, they will be stacked. To avoid this,  simple solution is to use **Filter** > **File Type** to display only RAW or JPEG files, then run the script to stack burst images of the selected type.
 
 ## 📄 License
 
